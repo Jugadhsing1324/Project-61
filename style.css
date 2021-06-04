@@ -1,0 +1,46 @@
+h1{
+   color:blue;
+}
+.line{
+     height: 6px;
+    background-color: black;
+    width: 75px;
+    margin: 8px auto;
+}
+img{
+    height:400px;
+    width:400px;
+    transition:transform .2s;
+}
+body{
+    text-align: center;
+    background-color: chartreuse;
+}
+p{
+    color:red;
+}
+img:hover{
+    transform:scale(0.9);
+}
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: orangered;
+    text-shadow: 2px 2px fantasy;
+}
+.links {
+    color: white;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: cursive;
+    font-size: 20px;
+    display: inline;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
